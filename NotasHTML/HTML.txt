@@ -1,0 +1,39 @@
+Conceito geral:
+
+O modelo de caixa do CSS define como os elementos HTML são visualmente renderizados no navegador.
+Cada elemento é representado por uma caixa retangular que envolve seu conteúdo.
+Componentes da caixa:
+
+Conteúdo (Content):
+Refere-se ao próprio texto, imagem ou outros elementos dentro da caixa.
+Preenchimento (Padding):
+É uma área transparente entre o conteúdo e a borda da caixa.
+Controla o espaço entre o conteúdo e a borda da caixa.
+Bordas (Border):
+Circundam o preenchimento e o conteúdo.
+Podem ter estilos, larguras e cores diferentes.
+Margens (Margin):
+São áreas transparentes fora das bordas.
+Controlam o espaço entre a caixa atual e outros elementos na página.
+Tamanho total do elemento:
+
+A soma do conteúdo, preenchimento, bordas e margens determina a largura e altura total do elemento.
+As dimensões totais podem ser ajustadas usando propriedades CSS, como width (largura) e height (altura).
+Layout e espaçamento:
+
+O modelo de caixa permite controlar o espaçamento entre os elementos na página.
+As margens são usadas para criar espaçamento entre as caixas de elementos.
+O preenchimento interno pode criar espaçamento entre o conteúdo e a borda da caixa.
+
+Box-Level:
+
+Elementos box-level são aqueles que são formatados visualmente como caixas retangulares com propriedades como largura (width), altura (height), margens (margins) e bordas (borders).
+Eles ocupam todo o espaço horizontal disponível na largura da sua linha ou contêiner pai, e outros elementos não podem ser posicionados ao seu lado.
+Exemplos de elementos box-level incluem <div>, <p>, <h1> a <h6>, <ul>, <li>, <section>, entre outros.
+
+Inline-Level:
+
+Elementos inline-level são aqueles que são formatados em linha com o conteúdo textual e não formam caixas individuais. Em vez disso, eles fluem junto ao texto.
+Eles não suportam propriedades de dimensão como largura e altura, nem as propriedades de margem (margin) e borda (border) aplicadas em box-level.
+Elementos inline-level são considerados parte do conteúdo e permitem que outros elementos fiquem ao seu lado.
+Exemplos de elementos inline-level incluem <span>, <a>, <strong>, <em>, <img>, entre outros.
